@@ -1,0 +1,29 @@
+Sulfoxide 1.4 (9/1/2023)
++ Fixed buffer overflow in dropper code
++ Fixed huge memory leak in shader code that may have caused Sulfoxide to crash more often on lower end systems
+- The duration Sulfoxide's main payloads run for has been shrinked down to 5 minutes (previously 6 minutes)
++ Added an end payload that executes before forcefully shutting down the machine, similar to the fake blue screen of death
+* This payload may not be seen if the machine is very slow due to too many processes being open
++ Hotfix released for safe mode where layered windows wouldn't show up
+
+Sulfoxide 1.3 (20/8/2022)
++ Added 3 shaders and 4 bytebeat sounds
++ Added safe mode as a registry value which prevents malicious code from running and only runs the shaders and sounds
+* Beware! Safe mode may not be fully safe. Although not executed, the binary still contains malicious code. Run at your own risk.
++ Safe mode hotfix
+
+Sulfoxide 1.2 (18/8/2022)
++ Payload duration fix as they were very short in order to debug the payloads. It was forgotten in the release.
++ No window fix replaced by registry key. Read 'Registry.txt' for more information.
+* This should've been released earlier but debugging Sulfoxide made me want to never touch it again
++ Quick hotfix for error checks
++ Another hotfix to link a crucial function as a header file was forgotten
+
+Sulfoxide 1.1 (24/7/2022)
++ Fixed many bugs including crashes
++ BSOD payload remade, cleaner code
+* Tested on different virtual machines, doesn't seem to work as intended on Windows 8+
++ Dropper hotfix
+
+Sulfoxide 1.0 (22/7/2022)
++ Initial release, very buggy, only works properly on some Windows XP and 7 VMs

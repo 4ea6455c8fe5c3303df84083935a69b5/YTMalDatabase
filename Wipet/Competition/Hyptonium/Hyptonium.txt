@@ -1,0 +1,20 @@
+ ___      ____  ___     ___  ___  ______  ______________  ________  ____    __  ________  ___     ___  ___  __  ___
+/   \    /    \/   \   /   \/   \/  __  \/              \/        \/    \  /  \/        \/   \   /   \/   \/  \/   \
+|    |___|    |     |__|   |       (__)  |               |   ___   |     \/   |\__    __/|   |   |   |             |
+|     ___     |\________   |    |_______/\____      ____/|  (___)  |          | __|  |__ |   |   |   |             |
+|    |   |    | ________)  |    |             |    |     |         |    \     |/        \|   \___/   |    |    |   |
+\____/   \____/<___________/\___/             \____/     \_________/\___/\___/ \________/\___________/\___/\__/\___/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hyptionium trojan by GetMbr. 
+Programming lang: C++
+
+This software is not safe on your real machine. So if you want to keep your computer safe, just delete this program!
+
+This little trojan is made under the course of 2 weeks, and it can overwrite your mbr or (Master boot record) to make 
+it unusable. Also it can show flashing lights and loud and disturbing noises then it can move the program window,
+randomly moving your cursor, random cursor clicks, renaming window titles and contents and it can triggers the BSOD
+(Blue Screen of Death) after the payloads are finished.
+
+Thanks for wipet for fix some bugs in the bytebeat code.

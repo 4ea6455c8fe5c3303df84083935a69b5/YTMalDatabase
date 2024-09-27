@@ -1,0 +1,3 @@
+The no window fix gets rid of the layered window code and avoids running shaders that use the layered windows.
+However, many shaders will be missing, including the BSOD payload.
+Use it if your VM seems to be frozen after running Sulfoxide.

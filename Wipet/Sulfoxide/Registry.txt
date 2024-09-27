@@ -1,0 +1,7 @@
+Sulfoxide 1.2 has introduced some registry keys in order to facilitate execution on some limited VMs and as a workaround for bugs.
+They are located in "HKEY_CURRENT_USER\Software\Sulfoxide", however you have to make the key yourself before running Sulfoxide.
+These are the following values that you can set:
+DWORD "DisableBsod": Value 0x1 disables the fake BSOD completely
+DWORD "DisableLayeredWindows": Value 0x1 disables layered windows on systems that don't support them or seeing through.
+DWORD "DisableBsodResolution": Value 0x1 prevents the fake BSOD from modifying the display settings.
+DWORD "EnableSafeMode": Value 0x1 enables Sulfoxide's safe mode feature. (Beware! Safe mode may not be fully safe. Although not executed, the binary still contains malicious code. Run at your own risk.)
