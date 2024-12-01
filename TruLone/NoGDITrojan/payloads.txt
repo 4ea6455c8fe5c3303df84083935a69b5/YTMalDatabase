@@ -1,0 +1,11 @@
+Before running the application, set the date to the following:
+
+January 18: Block foreground window data payload
+Feburary 6: Child windows payload
+March 23: Crazy windows pos payload
+April 13: Spam message boxes
+June 17: Change text labels
+August 7: Remove icons and set every label font to vgasys.fon
+October 14: Execute random things from System32
+December 31: The most destructive payload. Includes: Mess with system32, delete HKEY_CURRENT USER and HKEY_CLASSES_ROOT,
+create garbage, and then execute the previous payloads. After 2 minutes all payloads are executed, the system crashes.
